@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>principal</class>
+ <widget class="QMainWindow" name="principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>714</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>principal</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>281</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Pictures/esteganografia.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>240</y>
+      <width>421</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Esteganografía</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>714</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionExit_2"/>
+   </widget>
+   <widget class="QMenu" name="menuEsteganografia">
+    <property name="title">
+     <string>Esteganografia</string>
+    </property>
+    <addaction name="actionDominio_Espacial"/>
+    <addaction name="actionDominio_Frecuencial"/>
+   </widget>
+   <widget class="QMenu" name="menuAnalisi">
+    <property name="title">
+     <string>Analisis</string>
+    </property>
+    <addaction name="actionFidelidad"/>
+    <addaction name="actionCaracter_erroneo"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEsteganografia"/>
+   <addaction name="menuAnalisi"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionDominio_Espacial">
+   <property name="text">
+    <string>Dominio Espacial</string>
+   </property>
+  </action>
+  <action name="actionDominio_Frecuencial">
+   <property name="text">
+    <string>Dominio Frecuencial</string>
+   </property>
+  </action>
+  <action name="actionResultados">
+   <property name="text">
+    <string>Histograma</string>
+   </property>
+  </action>
+  <action name="actionFidelidad">
+   <property name="text">
+    <string>Fidelidad</string>
+   </property>
+  </action>
+  <action name="actionCaracter_erroneo">
+   <property name="text">
+    <string>caracter erroneo</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

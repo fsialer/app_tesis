@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_redistribution" />
+  <mkdir dir="C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_testing" />
+  <mkdir dir="C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_redistribution_files_only" />
+</ant>
+mcc -C -o golay -W WinMain:golay -T link:exe -d C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_testing -v C:\Users\FERNANDO\Documents\MATLAB\golay\golay.m 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\FERNANDO\Documents\MATLAB\golay" to Compiler
+path instance.] 
+Parsing file "C:\Users\FERNANDO\Documents\MATLAB\golay\golay.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 2 temporary MEX authorization files.
+Removing: 'C:\Users\FERNANDO\AppData\Local\Temp\mathworks_tmp_032949378_12948.auth'.
+Removing: 'C:\Users\FERNANDO\AppData\Local\Temp\mathworks_tmp_0329423073_12948.auth'.
+Generating file "C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_testing\golay.exe.
+Attempting to embed the CTF archive into the application C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_testing\golay.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\FERNANDO\Documents\MATLAB\golay\golay\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 1 minutes and 46 seconds.
